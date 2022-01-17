@@ -53,10 +53,6 @@ url: "https://ihadahamoment.com"
 
 theme: minima
 
-collections:
-  projects:
-    output: true
-
 #
 # !! You don't need to change any of the configuration flags below !!
 #
