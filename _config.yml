@@ -53,10 +53,15 @@ url: "https://ihadahamoment.com"
 
 theme: minima
 
-collections:
-  books:
-    output: true
-
+defaults:
+  - scope:
+      path: "_blog/_posts"
+    values:
+      type: "blog"
+  - scope:
+      path: "_books/_posts"
+    values:
+      type: "books"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
