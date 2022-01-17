@@ -51,11 +51,12 @@ url: "https://ihadahamoment.com"
 # then add in the baseurl here, like this: "/repository-name"
 #baseurl: ""
 
+theme: jekyll-theme-architect
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+#remote_theme: mmistakes/minimal-mistakes
+#plugins:
+#  - jekyll-feed
+#  - jekyll-include-cache
 
 
 defaults:
