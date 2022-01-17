@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-This is Yigit. I am an iOS Engineer at Twitter. 
+This is Yigit. I am an iOS Engineer at Twitter 🐦. 
 
 I have developing iOS apps since 2015. Currently, I live in New York City.
 
@@ -17,7 +17,7 @@ I have developing iOS apps since 2015. Currently, I live in New York City.
 
 ### More Information
 
-I love playing soccer and cooking. 
+I love playing soccer⚽ and cooking🍳. 
 
 ### Reach me!
 
