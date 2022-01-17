@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Hello!
 permalink: /about/
 published: true
 ---
 
-Some information about you!
+This is Yigit.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+this place is for more information about me!
 
 ### Contact me
 
