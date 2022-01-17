@@ -7,7 +7,7 @@ published: true
 
 This is Yigit. I am an iOS Engineer at Twitter 🐦. 
 
-I have developing iOS apps since 2015. Currently, I live in New York City.
+I have been developing iOS apps since 2015. Currently, I live in New York City.
 
 - **Twitter** - _iOS Engineer_, Jun 2021 - 
 - **diyetyapp** - _Founder_, Jun 2018 - 
