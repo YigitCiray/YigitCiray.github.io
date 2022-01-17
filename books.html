@@ -1,0 +1,15 @@
+<div class="posts">
+  {% for book in site.books %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ book.url }}">{{ book.title }}</a></h1>
+
+      <div class="entry">
+        {{ book.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ book.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
