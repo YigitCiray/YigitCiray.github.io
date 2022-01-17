@@ -55,11 +55,11 @@ theme: minima
 
 defaults:
   - scope:
-      path: "_blog/_posts"
+      path: "blogs/_posts"
     values:
       type: "blog"
   - scope:
-      path: "_books/_posts"
+      path: "books/_posts"
     values:
       type: "books"
 #
