@@ -59,7 +59,7 @@ defaults:
   - scope:
       path: "blogs/_posts"
     values:
-      type: "blog"
+      type: "blogs"
   - scope:
       path: "books/_posts"
     values:
