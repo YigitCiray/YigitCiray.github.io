@@ -1,12 +1,14 @@
 ## Dependency Inversion Principle
 
 
-I would like to start my blog’s first post from the opposite order of SOLID, D -> Dependency Inversion Principle. Let’s remember all
-S -> Single responsibility 
-O-> Open-closed
-L-> Liskov substitution
-I-> Interface segregation
-D-> Dependency inversion 
+I would like to start my blog with my first post about Dependency Inversion Principle. Decided to reverse the order to show myself how successfull I am on reverse engineering:P 
+**SOLID** to remember all;
+- **S**-> Single responsibility 
+- **O**-> Open-closed
+- **L**-> Liskov substitution
+- **I**-> Interface segregation
+- **D**-> Dependency inversion
+
 
 The Solid design principles were promoted by Robert C. Martin, referenced many times as DIP on Clean Codebook.
 
