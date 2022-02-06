@@ -10,9 +10,9 @@ I would like to start my blog with my first post about Dependency Inversion Prin
 
 The Solid design principles were promoted by Robert C. Martin, referenced many times as DIP on [Clean Code](https://www.amazon.com/dp/0132350882/ref=cm_sw_em_r_mt_dp_CEBYC0H1FXGR5FE5JVND) book.
 
-TLDR; The DIP says that our classes should depend upon abstraction, not on concrete classes. 
+**TLDR**; The DIP says that our classes should depend upon abstraction, not on concrete classes. 
 
-I choose DIP to start my blog because I tend to misuse Dependency Injection over Dependency Inversion Principle while the reality is opposite, DI is based on DIP. 
+I choose DIP to start my blog because I tend to misuse Dependency Injection over Dependency Inversion Principle while the reality is opposite,**DI is based on DIP**. 
 
 Historically Inversion of Control(IoC) first written in 1988 by Ralph E. Johnson & Brian Foote on Designing Reusable Classes paper. The concept was popularized by Robert Martin’s paper OO Design Quality Metrics An Analysis of Dependencies, 1994. 
 
@@ -31,10 +31,7 @@ func connect(laptopName: String, viaBluetooth:Bool)
 
 In the object-oriented design, classes have to interact with each other to manage functionalities and eventually create application.
 
-Main disadvantage of using concrete types, it controls the creation and lifetime of objects of the dependency class. However, with DIP goal is delegating control to another class. Rather than using the Class B in Class A, use interface of Class B, delegate the method, this way you can achieve more loosely coupled classes and abstraction.
-
-
-
+Main disadvantage of using concrete types, it controls the creation and lifetime of objects of the dependency class. However, with DIP goal is delegating control to another class. Rather than using the Class Keychron in Class Laptop, use interface of KeyboardConnection, delegate the method, this way you can achieve more loosely coupled classes and abstraction.
 
 
 [Designing Reusable Classes By Ralph E. Johnson & Brian Foote, June/July 1988](https://www.cse.msu.edu/~cse870/Input/SS2002/MiniProject/Sources/DRC.pdf)
