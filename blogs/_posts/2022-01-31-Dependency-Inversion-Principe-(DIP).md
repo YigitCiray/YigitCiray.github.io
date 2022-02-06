@@ -24,12 +24,11 @@ Class laptop has the concrete keyboard brand class.
 
 On the second example, I demonstrated Dependency Inversion Principle, improved loose coupling and introduced protocol, where it confirmed by keyboard concrete types and invoked by laptop class.
 
-```swift
+```javascript
 protocol KeyboardConnection {
     func connect(laptopName: String, viaBluetooth:Bool)
 }
 ```
-
 
 In the object-oriented design, classes have to interact with each other to manage functionalities and eventually create application.
 
