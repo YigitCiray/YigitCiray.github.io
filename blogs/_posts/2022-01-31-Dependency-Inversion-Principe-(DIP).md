@@ -26,9 +26,7 @@ On the second example, I demonstrated Dependency Inversion Principle, improved l
 
 ```swift
 protocol KeyboardConnection 
-```
-```swift
-    func connect(laptopName: String, viaBluetooth:Bool)
+func connect(laptopName: String, viaBluetooth:Bool)
 ```
 
 In the object-oriented design, classes have to interact with each other to manage functionalities and eventually create application.
