@@ -1,6 +1,4 @@
-## SOLID's - D
-
-I would like to start my blog with my first post about Dependency Inversion Principle. Decided to reverse the order to show myself how successfull I am on reverse engineering 😝 
+## I would like to start my blog with my first post about Dependency Inversion Principle. Decided to reverse the order to show myself how successfull I am on reverse engineering 😝 
 **SOLID** to remember all;
 - **S**-> Single responsibility 
 - **O**-> Open-closed
