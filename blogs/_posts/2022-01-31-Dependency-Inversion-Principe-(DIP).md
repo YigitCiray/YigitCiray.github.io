@@ -24,7 +24,7 @@ Class laptop has the concrete keyboard brand class.
 
 On the second example, I demonstrated Dependency Inversion Principle, improved loose coupling and introduced protocol, where it confirmed by keyboard concrete types and invoked by laptop class.
 
-```javascript
+```swift
 protocol KeyboardConnection {
     func connect(laptopName: String, viaBluetooth:Bool)
 }
