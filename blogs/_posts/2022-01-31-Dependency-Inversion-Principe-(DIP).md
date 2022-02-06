@@ -8,7 +8,7 @@ I would like to start my blog with my first post about Dependency Inversion Prin
 - **I**-> Interface segregation
 - **D**-> Dependency inversion
 
-The Solid design principles were promoted by Robert C. Martin, referenced many times as DIP on [Clean Code] (https://www.amazon.com/dp/0132350882/ref=cm_sw_em_r_mt_dp_CEBYC0H1FXGR5FE5JVND) book.
+The Solid design principles were promoted by Robert C. Martin, referenced many times as DIP on [Clean Code](https://www.amazon.com/dp/0132350882/ref=cm_sw_em_r_mt_dp_CEBYC0H1FXGR5FE5JVND) book.
 
 TLDR; The DIP says that our classes should depend upon abstraction, not on concrete classes. 
 
