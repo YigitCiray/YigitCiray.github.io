@@ -34,6 +34,7 @@ protocol CheckPayment{
 }
 ```
 
+
 **Bad ISP** practice has all the payments method in one place. it is an abstraction for all payments, while I would like to use other cryptocurrencies but for specific places where user perefer to use BTC as a payment method.
 That scenario would end up adding the 4th method to my Payment protocol and all the classes that confirming this protocol has to have the new method. Since will not be used, literally end up as this in the codebase.
 
@@ -47,6 +48,8 @@ class CartUIViewController: Payment{
     }
 }
 ```
+
+
 
 **Good ISP** practice suggests you to create new ETH protocol. 
 ```swift
