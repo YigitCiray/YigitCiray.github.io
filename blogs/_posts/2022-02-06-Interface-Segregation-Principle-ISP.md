@@ -1,4 +1,4 @@
-## A New Post
+My second post is about ISP, I am on I of SOL-I-D principles.
 
 You can find my other blog post about [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/).
 
