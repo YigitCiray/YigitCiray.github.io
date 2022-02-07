@@ -67,6 +67,7 @@ protocol BitcoinPayment{
 
 Another round of trade off is about how we can maintain the amount of interfaces we have, if we will literally create a new one for each of them. I prefer numerosity over less amount of bulky interfaces. My focus is on reusability, mostly ending up with many interfaces to confirm on a single class but good thing is when you evolve the code you know that each change will be made on only necessary files.
 
+Find the swift file [here](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Design%20Principles/interfaceSegregationPrinciple.playground/Contents.swift)
 
 
 
