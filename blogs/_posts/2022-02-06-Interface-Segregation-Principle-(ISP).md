@@ -5,7 +5,7 @@ You can find my other blog post about [Dependency Inversion Principle](https://i
 **Why do we need Interface Segregation Principle?**
 Interface is a clean way to form a contract between the class and the outside world. As abstraction is the essential part of Object Oriented design, ISP focuses on contracting unnecessary methods with class. 
 
-By design we are forced to implement all the methods of interfaces. Considered that all the applications we develop are evolving creatures. While these creatures are evolving, we extend the interface and the classes with new methods and functionalities. We are using interface for loose coupling and abstraction but extending interface will require new method on each class confirming the interface. 
+By design we are forced to implement all the methods of interfaces. Considered that all the applications we develop are evolving creatures, we extend the interface and the classes with new methods and functionalities. We use interfaces to have loose coupling and abstraction but extending interface will require new method on each class confirming the interface. 
 
 The Interface Segregation Principle states that **clients should not be forced to implement interfaces they don't use**. 
 
