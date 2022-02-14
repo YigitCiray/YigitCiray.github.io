@@ -10,4 +10,15 @@ If for each object o1 of type S there is an object o2 of type T such that for al
 Above, complicated to understand, part is taken out from mentioned document by Robert C. Martin, aka Uncle Bob on [Clean Architecrute](https://www.amazon.com/dp/0134494164/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=8434daf3e487df1e8f2edba3e416eae3&hsa_cr_id=8875635360201&pd_rd_plhdr=t&pd_rd_r=53d11c49-53c5-4f5d-b2c6-b514524c1e6b&pd_rd_w=LGZv0&pd_rd_wg=TCGzk&ref_=sbx_be_s_sparkle_td_asin_1_img) book. To have better understanding I read the 3.3 Type Hierarchy from the paper.
 
 **Why do we need Liskov Substitution Principle?**
-By using LSP 
+By using LSP you can use a single interface, take advantage of substitutability and represent two or more subtypes. I'll try to come up with a coding example using Swift while trying to stay away from the common, by the book I read and blogs, example of square & rectangle.
+
+I decided to demonstrate a car example by using Swift. On the first part of the code I am coupling concrete types and exampling LSP Violation by two class without sharing any interface while there are common functionalities and bussiness logic for the program.
+
+Tesla and BMWHybrid both have     
+```swift
+    func checkTirePressure() -> Int 
+    func start() -> Bool 
+    func stop() -> Bool 
+    func checkBatteryLevel() -> Int vs (Int, Int) // sign is different
+```
+
