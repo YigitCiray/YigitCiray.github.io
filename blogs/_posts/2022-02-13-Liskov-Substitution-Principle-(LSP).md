@@ -20,5 +20,67 @@ Tesla and BMWHybrid both have
     func start() -> Bool 
     func stop() -> Bool 
     func checkBatteryLevel() -> Int vs (Int, Int) // sign is different
+    
+    class CarOwner {
+	    let car: BMWHybrid
 ```
+
+To follow LSP, I'll come up with a Interface, by doing that I'll share the common functionalities of two car classes and decouple the CarOwner class from BMWHybrid.
+
+```swift
+protocol Car {
+    func checkTirePressure() -> Int
+    func start() -> Bool
+    func stop() -> Bool
+    func preStartBatteryLevelCheck() -> Bool
+}
+```
+
+By creating the above Car protocol, we have decoupled the CarOwner class from BMW, now we our carowner is ready to change her car form hybrdo to fully electric vehicle. I'll demonstrate exact same example with using superclass rather than interface to have less similarity with my other blog/code example of [Dependency Inversion Princple](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/).
+
+```swift
+class Car {
+    private var battery: Int = 100
+    private var tirePressure: Int = 34
+    private var carStarted: Bool = false
+    
+    func checkTirePressure() -> Int {
+        return tirePressure
+    }
+    
+    func start() -> Bool {
+        carStarted = true
+        return carStarted
+    }
+    
+    func stop() -> Bool {
+        carStarted = false
+        return carStarted
+    }
+    
+    func preStartBatteryLevelCheck() -> Bool{
+        return battery > 10
+    }
+}
+
+class Tesla: Car {
+
+}
+
+class BMWHybrid: Car {
+    
+    private var fuel: Int = 100
+    
+    func checkFuelLevel() -> Int {
+        return fuel
+    }
+  
+    override func preStartBatteryLevelCheck() -> Bool{
+        return super.preStartBatteryLevelCheck() && checkFuelLevel() > 8
+    }
+}
+```
+
+
+
 
