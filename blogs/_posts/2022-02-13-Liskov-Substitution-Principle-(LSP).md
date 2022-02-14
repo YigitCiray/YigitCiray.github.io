@@ -81,6 +81,6 @@ class BMWHybrid: Car {
 }
 ```
 
-
+By using superclass we reused Tesla's code and for the fuel specific part of the BMWHybrid, we called super.preStartBatteryLevelCheck() for battery and continued with our custom property and method for fuel.
 
 
