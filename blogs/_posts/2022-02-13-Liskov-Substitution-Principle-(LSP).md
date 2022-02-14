@@ -83,4 +83,9 @@ class BMWHybrid: Car {
 
 By using superclass we reused Tesla's code and for the fuel specific part of the BMWHybrid, we called super.preStartBatteryLevelCheck() for battery and continued with our custom property and method for fuel.
 
+Find the swift file [here](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Design%20Principles/LiskovSubstitutionPrinciple.playground/Contents.swift)
+
+
+
+
 
