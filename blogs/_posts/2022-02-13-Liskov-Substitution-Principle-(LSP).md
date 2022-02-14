@@ -1,4 +1,4 @@
-My third post is about LSP, I am on the third post of reverse order of SO-L-ID principles with this blog post.
+My third post is about LSP, I am on the third principle of reverse order of SO-L-ID with this blog post.
 
 Please find my other blog post about [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/) and [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/)
 
@@ -84,8 +84,3 @@ class BMWHybrid: Car {
 By using superclass we reused Tesla's code and for the fuel specific part of the BMWHybrid, we called super.preStartBatteryLevelCheck() for battery and continued with our custom property and method for fuel.
 
 Find the swift file [here](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Design%20Principles/LiskovSubstitutionPrinciple.playground/Contents.swift)
-
-
-
-
-
