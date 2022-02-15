@@ -1,7 +1,7 @@
 ### Object Oriented Programming - Design Principles
 My fourth post is about OCP, I am on the fourth principle of reverse order of S-O-LID principles with this blog post.
 
-You can find my other blog posts [Liskov Substitution Principle](Liskov Substitution Principle (lsp)), [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/) and [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/)
+You can find my other blog posts [Liskov Substitution Principle](https://ihadahamoment.com/Liskov-Substitution-Principle-(LSP)/), [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/) and [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/)
 
 **Background**
 Bertrand Meyer described the principle as below on [Object-Oriented Software Construction](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction) in 1988
