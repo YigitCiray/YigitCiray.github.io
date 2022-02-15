@@ -47,7 +47,7 @@ class SoccerPlayer {
 
 I wanted to demonstrate an example of a superclass type of SoccerPlayer with only taking a string as a method property. That example uses a string to find a player and call save method for example for the goalkeeper. The improved solution where we have the good SRP practice our protocol for specific position is not only blocking the unexpected break on a change, it also gives us an opportunity to decouple and get rid of the cohesion.  
 
-
+You can find the related [code document](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Design%20Principles/SingleResponsibilityPrinciple.playground/Contents.swift) in here.
 
 
 
