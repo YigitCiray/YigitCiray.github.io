@@ -15,5 +15,40 @@ For Uncle Bob, RSP considered as the least well understood principle because of 
     The module on above statement described as a source file.
 
 **Why do we need Single Responsibility Principle?**
-As described above, when a module tries to serve multiple actors when their business logic separated, it can come with a high cost of dependency. One busines logic change can directly effect another without noticing for a while. i would like to demonstrate a coding example using Swift.
+As described above, when a module tries to serve multiple actors when their business logic separated, it can come with a high cost of dependency. One busines logic change can directly effect another without noticing for a while. I would like to demonstrate a coding example using Swift.
+
+ 
+```swift
+//class SoccerPlayer {
+//    func saveTheBall(goalkeeeper:String ) { }
+//    func scoreGoal(striker:String ) { }
+//    func pass() { }
+//    func tackle(defender:String ) { }
+//}
+
+//Good SRP Practice
+protocol Goalkeeper {
+    func save()
+}
+protocol Striker {
+    func score()
+}
+protocol Defender {
+    func tackle()
+}
+
+class SoccerPlayer {
+    func saveTheBall(goalkeeeper:Goalkeeper ) { goalkeeeper.save() }
+    func scoreGoal(striker:Striker ) { striker.score() }
+    func pass() { }
+    func tackle(defender:Defender ) { defender.tackle() }
+}
+```
+
+I wanted to demonstrate an example of a superclass type of SoccerPlayer with only taking a string as a method property. That example uses a string to find a player and call save method for example for the goalkeeper. The improved solution where we have the good SRP practice our protocol for specific position is not only blocking the unexpected break on a change, it also gives us an opportunity to decouple and get rid of the cohesion.  
+
+
+
+
+
 
