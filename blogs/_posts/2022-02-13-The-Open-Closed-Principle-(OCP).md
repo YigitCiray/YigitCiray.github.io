@@ -1,4 +1,4 @@
-### Object Oriented Programming - #Design Principles
+### Object Oriented Programming #Design Principles
 My fourth post is about OCP, I am on the fourth principle of reverse order of S-O-LID principles with this blog post.
 
 You can find my other blog posts [Liskov Substitution Principle](https://ihadahamoment.com/Liskov-Substitution-Principle-(LSP)/), [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/) and [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/)
