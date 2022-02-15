@@ -1,4 +1,4 @@
-### Object Oriented Programming - Design Principles
+### Object Oriented Programming - #Design Principles
 My second post is about ISP, I am on I of SOL-I-D principles on this document.
 
 You can find my other blog post about [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/).
