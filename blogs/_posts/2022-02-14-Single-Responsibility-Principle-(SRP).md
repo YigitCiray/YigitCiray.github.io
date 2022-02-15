@@ -19,12 +19,13 @@ As described above, when a module tries to serve multiple actors when their busi
 
  
 ```swift
-//class SoccerPlayer {
-//    func saveTheBall(goalkeeeper:String ) { }
-//    func scoreGoal(striker:String ) { }
-//    func pass() { }
-//    func tackle(defender:String ) { }
-//}
+//Bad SRP Practice
+class SoccerPlayer {
+    func saveTheBall(goalkeeeper:String ) { /*find the player by string and use save method*/ }
+    func scoreGoal(striker:String ) { *find the player by string and use scoreGoal method*/ }
+    func pass() { /*find the player by string and use pass method*/ }
+    func tackle(defender:String ) { /*find the player by string and use tackle method*/ }
+}
 
 //Good SRP Practice
 protocol Goalkeeper {
