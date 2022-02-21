@@ -1,4 +1,4 @@
-### #DesignPrinciples #OOP
+### #🖋️DesignPrinciples #💡OOP #💻SoftwareDevelopment
 My third post is about LSP, I am on the third principle of SO-L-ID with this blog post.
 
 Please find my other blog post about [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/) and [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/)
