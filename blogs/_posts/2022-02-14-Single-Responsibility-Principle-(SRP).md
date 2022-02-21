@@ -1,4 +1,4 @@
-### Object Oriented Programming #Design Principle
+### #DesignPrinciples #OOP
 My fifth and last post on Principles is about SRP, this is the fifth of reverse order of -S-OLID principles with this blog post.
 
 You can find my other blog posts [Open-Closed Principle](https://ihadahamoment.com/The-Open-Closed-Principle-(OCP)/), [Liskov Substitution Principle](https://ihadahamoment.com/Liskov-Substitution-Principle-(LSP)/), [Interface Segregation Principle](https://ihadahamoment.com/Interface-Segregation-Principle-(ISP)/) and [Dependency Inversion Principle](https://ihadahamoment.com/Dependency-Inversion-Principe-(DIP)/)
@@ -49,7 +49,3 @@ class SoccerPlayer {
 I wanted to demonstrate an example of a superclass type of SoccerPlayer with only taking a string as a method property. That example uses a string to find a player and call save method for example for the goalkeeper. The improved solution where we have the good SRP practice our protocol for specific position is not only blocking the unexpected break on a change, it also gives us an opportunity to decouple and get rid of the cohesion.  
 
 You can find the related [code document](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Design%20Principles/SingleResponsibilityPrinciple.playground/Contents.swift) in here.
-
-
-
-
