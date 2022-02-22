@@ -68,6 +68,10 @@ defaults:
       path: "books/_posts"
     values:
       type: "books"
+  - scope:
+      path: "ios/_posts"
+    values:
+      type: "ios"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
