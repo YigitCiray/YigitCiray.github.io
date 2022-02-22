@@ -13,11 +13,11 @@ We, software developers, need to communicate with each other about the coding so
 
 ## How do we categorize Design Patterns?
 ### Creational Patterns
-- Abstract Factory #Object
-- Builder #Object
-- Factory Method #Class
-- Prototype #Object
-- Singleton #Object
+- Abstract Factory   #Object
+- Builder   #Object
+- Factory Method   #Class
+- Prototype   #Object
+- Singleton   #Object
 
 ### Structural Patterns
 - Adapter   #Class and #Object
