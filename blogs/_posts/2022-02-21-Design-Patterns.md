@@ -13,30 +13,30 @@ We, software developers, need to communicate with each other about the coding so
 
 ## How do we categorize Design Patterns?
 ### Creational Patterns
-- Abstract Factory   #Object
-- Builder   #Object
-- Factory Method   #Class
-- Prototype   #Object
-- Singleton   #Object
+- Abstract Factory   _#Object_
+- Builder   _#Object_
+- Factory Method   _#Class_
+- Prototype   _#Object_
+- Singleton   _#Object_
 
 ### Structural Patterns
-- Adapter   #Class and #Object
-- Bridge   #Object
-- Composite   #Object
-- Decorator   #Object
-- Facade   #Object
-- Flyweight   #Object
-- Proxy   #Object
+- Adapter   _#Class and #Object_
+- Bridge   _#Object_
+- Composite   _#Object_
+- Decorator   _#Object_
+- Facade   _#Object_
+- Flyweight   _#Object_
+- Proxy   _#Object_
 
 ### Behavioral Patterns
-- Chain of Responsibility #Object
-- Command   #Object
-- Interpreter   #Class
-- Iterator   #Object
-- Mediator   #Object
-- Memento   #Object
-- Observer   #Object
-- State   #Object
-- Strategy   #Object
-- Template Method   #Class
-- Visitor   #Object
+- Chain of Responsibility #Object_
+- Command   _#Object_
+- Interpreter   _#Class_
+- Iterator   _#Object_
+- Mediator   _#Object_
+- Memento   _#Object_
+- Observer   _#Object_
+- State   _#Object_
+- Strategy   _#Object_
+- Template Method   _#Class_
+- Visitor   _#Object_
