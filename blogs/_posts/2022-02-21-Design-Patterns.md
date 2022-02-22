@@ -29,7 +29,7 @@ We, software developers, need to communicate with each other about the coding so
 - Proxy   _#Object_
 
 ### Behavioral Patterns
-- Chain of Responsibility #Object_
+- Chain of Responsibility _#Object_
 - Command   _#Object_
 - Interpreter   _#Class_
 - Iterator   _#Object_
