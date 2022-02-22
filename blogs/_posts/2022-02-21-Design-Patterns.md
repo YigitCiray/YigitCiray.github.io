@@ -20,23 +20,23 @@ We, software developers, need to communicate with each other about the coding so
 - Singleton #Object
 
 ### Structural Patterns
-- Adapter #Class and #Object
-- Bridge #Object
-- Composite #Object
-- Decorator #Object
-- Facade #Object
-- Flyweight #Object
-- Proxy #Object
+- Adapter   #Class and #Object
+- Bridge   #Object
+- Composite   #Object
+- Decorator   #Object
+- Facade   #Object
+- Flyweight   #Object
+- Proxy   #Object
 
 ### Behavioral Patterns
 - Chain of Responsibility #Object
-- Command #Object
-- Interpreter #Class
-- Iterator #Object
-- Mediator #Object
-- Memento #Object
-- Observer #Object
-- State #Object
-- Strategy #Object
-- Template Method #Class
-- Visitor #Object
+- Command   #Object
+- Interpreter   #Class
+- Iterator   #Object
+- Mediator   #Object
+- Memento   #Object
+- Observer   #Object
+- State   #Object
+- Strategy   #Object
+- Template Method   #Class
+- Visitor   #Object
