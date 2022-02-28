@@ -3,7 +3,7 @@ published: true
 ---
 
 ### #🧭DesignPatterns #💡OOP #💻SoftwareDevelopment
-This blog post is about Abstract Factory pattern. What is Abstract Factory Pattern? I try to explain with a code sample.
+This blog post is about Abstract Factory pattern. What is Abstract Factory Pattern? I'll try to explain and demonstrate with a code sample.
 
 ## What is Abstract Factory Pattern?
 An interface for creating families of related objects without specifying concrete class.
