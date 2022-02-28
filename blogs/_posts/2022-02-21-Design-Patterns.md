@@ -13,7 +13,7 @@ We, software developers, need to communicate with each other about the coding so
 
 ## How do we categorize Design Patterns?
 ### Creational Patterns
-- Abstract Factory   _#Object_
+- [Abstract Factory](https://ihadahamoment.com/Abstract-Factory-Pattern/)   _#Object_
 - Builder   _#Object_
 - Factory Method   _#Class_
 - Prototype   _#Object_
@@ -42,4 +42,4 @@ We, software developers, need to communicate with each other about the coding so
 - Visitor   _#Object_
 
 ## What is object granularity, how do you determine it?
-Granularity is the size and the complexity of the object. It can vary from size, depth and number. Design patternsare are used for object granularity purpose too. Depending on the pattern you choose, object's granularity also pre-defined and well structured in design patterns. Example by the Four Gang's book, > _The Facade Pattern describes how to represent complete system as objects, Flyweight pattern describes how to support huge numbers of objects at the finest granularities, Abstract Factory and Builder yields objects whose responsibility is creating other objects while other patterns describe specific way of decomposing an object into similar objects_. 
+Granularity is the size and the complexity of the object. It can vary from size, depth and number. Design patternsare are used for object granularity purpose too. Depending on the pattern you choose, object's granularity also pre-defined and well structured in design patterns. Example by the Four Gang's book, > _The Facade Pattern describes how to represent complete system as objects, Flyweight pattern describes how to support huge numbers of objects at the finest granularities, Abstract Factory and Builder yields objects whose responsibility is creating other objects while other patterns describe specific way of decomposing an object into similar objects_.
