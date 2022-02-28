@@ -2,7 +2,7 @@
 published: true
 ---
 
-### #🖋️DesignPrinciples #💡OOP #💻SoftwareDevelopment
+### #🧭DesignPatterns #💡OOP #💻SoftwareDevelopment
 This blog post is about Abstract Factory pattern, I also demonstrated a code sample.
 
 ## What is Abstract Factory Pattern?
