@@ -17,7 +17,7 @@ My first learning from the course is threat definitions for Privacy and Security
 ## What are the main fundamental differences and similarities between mobile and traditional malwares?
 This is quite meaningful question to understand the perspective of hackers. My main note for this question is the volume of data stolen with the attack. Traditional attacks on web tends to expose high volume of user data, while on mobile there is an individual users information. This is an advantage of the mobile development with highly secure SDKs, which by defaults protects with user and provices ready to use APIs for developers.
 
-## Who is OWASP? 
+## Wha is OWASP? 
 The [Open Web Application Security Project® (OWASP)](https://owasp.org/) is a nonprofit foundation that works to improve the security of software. 
 OWASP's Mobile Top 10 Mobile Risks list
 1. Improper Platform Usage
@@ -32,7 +32,12 @@ OWASP's Mobile Top 10 Mobile Risks list
 10. Extraneous Functionality
 
 ## iOS Specific Learnings
+**iOS Security architecture;** boot process, hardware security features, unlock process
+**iOS Cryptography;** key management and the iOS crypto framework
 
+**Secure boot chain**, is a crucial step on iOS architecture, it is a way of authorizing the iOS code. Jailbreaking works by finding and exploiting vulnerabilitis in this chain. 4 main layer ensures that each other signed properly. 
+
+**How data can leak?**, a
 
 
 
