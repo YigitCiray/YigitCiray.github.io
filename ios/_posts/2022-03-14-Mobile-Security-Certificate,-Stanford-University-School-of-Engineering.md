@@ -12,7 +12,25 @@ Mobile security is crucial. Should be handled properly to protect confidential a
 ## My Knowledge Gain
 This course is not iOS specific, all sort of security vulnerabilities on mobile devices, including, tablets and watches with phones, proactively mentioned with historical data/previous deficiencies.
 My first learning from the course is threat definitions for Privacy and Security. **Privacy:** data and identifier leakage
-**Security:** phishing, malware & drive-bysm malicious intents
+**Security:** phishing, malware & drive-bys malicious intents
+
+## What are the main fundamental differences and similarities between mobile and traditional malwares?
+This is quite meaningful question to understand the perspective of hackers. My main note for this question is the volume of data stolen with the attack. Traditional attacks on web tends to expose high volume of user data, while on mobile there is an individual users information. This is an advantage of the mobile development with highly secure SDKs, which by defaults protects with user and provices ready to use APIs for developers.
+
+## OWASP's Mobile Top 10 Mobile Risks list
+1. Improper Platform Usage
+2. Insecure Data Storage
+3. Insecure Communication
+4. Insecure Authentication
+5. Insufficient Cryptography
+6. Insecure Authorization
+7. Client Code Quality
+8. Code Tampering
+9. Reverse Engineering
+10. Extraneous Functionality
+
+
+
 
 
 
