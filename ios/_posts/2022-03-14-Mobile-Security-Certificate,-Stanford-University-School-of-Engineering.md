@@ -7,6 +7,13 @@ Mobile security is crucial. Should be handled properly to protect confidential a
 ## Why did I choose this course?
 **First**, there are not much course options when the topic is Mobile Security. 
 **Second**, this course is promising to provide an in-depth technical overview of the security features and limitations of modern mobile operating systems, including the top risks and vulnerabilities, every IT professional needs to know.
-**Third** and most important one, my fellow tweeps recommended me this course.
+**Third**, and most important one, my fellow tweeps recommended me this course.
+
+## My Knowledge Gain
+This course is not iOS specific, all sort of security vulnerabilities on mobile devices, including, tablets and watches with phones, proactively mentioned with historical data/previous deficiencies.
+My first learning from the course is threat definitions for Privacy and Security. **Privacy:** data and identifier leakage
+**Security:** 
+
+
 
 
