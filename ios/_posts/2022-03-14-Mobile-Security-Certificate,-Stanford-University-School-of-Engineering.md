@@ -10,9 +10,3 @@ Mobile security is crucial. Should be handled properly to protect confidential a
 **Third** and most important one, my fellow tweeps recommended me this course.
 
 
-
-What you will learn
-Mobile application security measures
-Models to develop and secure Android applications
-Security detection and measures in iOS
-Trends in mobile device management (MDM)
