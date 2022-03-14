@@ -12,7 +12,9 @@ Mobile security is crucial. Should be handled properly to protect confidential a
 ## My Knowledge Gain
 This course is not iOS specific, all sort of security vulnerabilities on mobile devices, including, tablets and watches with phones, proactively mentioned with historical data/previous deficiencies.
 My first learning from the course is threat definitions for Privacy and Security. **Privacy:** data and identifier leakage
-**Security:** 
+**Security:** phishing, malware & drive-bysm malicious intents
+
+
 
 
 
