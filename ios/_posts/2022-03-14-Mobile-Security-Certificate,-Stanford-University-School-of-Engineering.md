@@ -17,7 +17,9 @@ My first learning from the course is threat definitions for Privacy and Security
 ## What are the main fundamental differences and similarities between mobile and traditional malwares?
 This is quite meaningful question to understand the perspective of hackers. My main note for this question is the volume of data stolen with the attack. Traditional attacks on web tends to expose high volume of user data, while on mobile there is an individual users information. This is an advantage of the mobile development with highly secure SDKs, which by defaults protects with user and provices ready to use APIs for developers.
 
-## OWASP's Mobile Top 10 Mobile Risks list
+## Who is OWASP? 
+The Open Web Application Security Project® (OWASP) is a nonprofit foundation that works to improve the security of software. 
+OWASP's Mobile Top 10 Mobile Risks list
 1. Improper Platform Usage
 2. Insecure Data Storage
 3. Insecure Communication
