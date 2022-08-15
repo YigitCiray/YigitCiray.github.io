@@ -63,3 +63,5 @@ Lastly, this method, which has the first parameter set, is called with other str
 
 ## Why it is called currying?
 It is not Steph! Yeah! Name is coming from [Haskell Curry](https://en.wikipedia.org/wiki/Currying). He is the programmer who socialized the the concept while Moses Schönfinkel is the founder.
+
+github [link](https://github.com/YigitCiray/DesignPatternsAndPrinciples/blob/main/Functional%20Programming/Currying.playground/Contents.swift)
