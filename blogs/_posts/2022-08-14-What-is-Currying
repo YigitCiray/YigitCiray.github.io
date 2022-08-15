@@ -16,7 +16,7 @@ It is a helper method to **transform** your method.
 
 ## Example
 ```swift
-**func valuedMember(since date: Date, name: String)** -> String {
+func valuedMember(since date: Date, name: String) -> String {
     let format = DateFormatter()
     format.dateFormat = "yyyy"
     let year = format.string(from: date)
@@ -37,11 +37,10 @@ func curry<A, B, C>(_ f: @escaping (A,B) -> C) -> (A) -> (B) -> C {
     return {a in { b in f(a,b) } }
 }
 
-valuedMember(since:name:)
-valuedMember(since:)
-curry(valuedMember(since:name:))
-
 ```
+valuedMember(since:name:) 			(Foundation.Date, String) -> String
+valuedMember(since:) 				(Foundation.Date) -> (String) -> String
+curry(valuedMember(since:name:)) 	(Foundation.Date) -> (String) -> String
 
 
 
