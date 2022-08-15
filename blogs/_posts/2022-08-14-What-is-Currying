@@ -23,7 +23,7 @@ func valuedMember(since date: Date, name: String) -> String {
     return "\(name) is a valued member since \(year)."
 }
 
-
+// Curried version of the above method
 func valuedMember(since date: Date) -> (String) -> String {
     return { name in
         let format = DateFormatter()
@@ -33,14 +33,15 @@ func valuedMember(since date: Date) -> (String) -> String {
     }
 }
 
+//Method to Curry the methods
 func curry<A, B, C>(_ f: @escaping (A,B) -> C) -> (A) -> (B) -> C {
     return {a in { b in f(a,b) } }
 }
 
 ```
-valuedMember(since:name:) 			(Foundation.Date, String) -> String
-valuedMember(since:) 				(Foundation.Date) -> (String) -> String
-curry(valuedMember(since:name:)) 	(Foundation.Date) -> (String) -> String
+valuedMember(since:name:) 			**(Foundation.Date, String) -> String**
+valuedMember(since:) 				**(Foundation.Date) -> (String) -> String**
+curry(valuedMember(since:name:)) 	**(Foundation.Date) -> (String) -> String**
 
 
 
