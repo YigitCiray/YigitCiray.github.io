@@ -43,60 +43,23 @@ valuedMember(since:name:) 			**(Foundation.Date, String) -> String**
 valuedMember(since:) 				**(Foundation.Date) -> (String) -> String**
 curry(valuedMember(since:name:)) 	**(Foundation.Date) -> (String) -> String**
 
-
-
-An interface for creating families of related objects without specifying concrete class.
-
-I would like you to walk you trough my code example to explain in more detail.
-Let's say that we would like to provide engine types, and these types vary by motorcycle to car and electric to regular.
-
-Abstract Factory pattern intents to create an abstraction on creation.
-To do that I will start with my **interface Engine**
+## Usecase
+Let's assume that we can use either today's year or sometime which should be provided as a parameter. Let's have a one liner for multiple use.
 ```swift
-protocol Engine {
-    func start()
-}
+let curried = curry(valuedMember(since:name:))(Date())
+curried("David")
+curried("Joe")
 ```
+"David is a valued member since 2022."
+"Joe is a valued member since 2022."
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Our first method(valuedMember(since:name:)) is curried with curry(...) and this constant's first parameter is initiated with (Date()).
 
+I'll repeat this, constant's **only** parameter is initiated with (Date()).
+Yes, that is the goal, we would like to create a method from an existing method, which needs only one argument rather than two. 
 
-Currying provides a way for working with functions that take multiple arguments, and using them in frameworks where functions might take only one argument. For example, some analytical techniques can only be applied to functions with a single argument. Practical functions frequently take more arguments than this.
-
-
-==While function composition can seem simple, it’s not always so easy to take the existing functions we work with every day and fit them into our compositions. Let’s explore some reusable techniques that can aid us in transforming functions that are difficult to compose into pieces that fit snugly.
-
-
-In our episode on side effects, we controlled the side effect of a function by moving a dependency on the mutable state of the world into the function’s inputs.
-func greet(at date: Date, name: String) -> String {
-  let seconds = Int(date.timeIntervalSince1970) % 60
-  return "Hello \(name)! It's \(seconds) seconds past the minute."
-}
-00:55
-We can’t compose other functions into this function because it takes two inputs, but we found that we can fix this with a trick by taking our dependency on Date up front and immediately returning a brand new function that composes.
-func greet(at date: Date) -> (String) -> String {
-  return { name in
-    let seconds = Int(date.timeIntervalSince1970) % 60
-    return "Hello \(name)! It's \(seconds) seconds past the minute."
-  }
-}
-01:35
-We fixed this in a very ad hoc way, but we can generalize the process, taking in existing functions that take multiple arguments and producing, instead, a nested chain of functions that take a single argument. This is called currying.
-func curry<A, B, C>(_ f: @escaping (A, B) -> C) -> (A) -> (B) -> C {
-  return { a in { b in f(a, b) } }
-}
-Now we have an all-purpose function that, given a function that goes from two arguments, A and B, to C, returns a function that takes a single argument in A and returns a brand new function from B to C.
-02:25
-Let’s take a look at our greet function.
-greet(at:name:) // (Date, String) -> String
-02:32
-Swift allows us to refer to a function or method by specifying the arguments but omitting the data.
-02:45
-What happens when we feed it our original greet function?
-curry(greet(at:name:)) // (Date) -> (String) -> String
-02:48
-This looks just like our manually-curried version.
-greet(at:) // (Date) -> (String) -> String
+Lastly, this method, which has the first parameter set, is called with other strings, as expected as a second parameter.
 
 
-If you’re wondering why it’s called “curry”, it’s named after the logician and mathematician, Haskell Curry, for which the programming language Haskell is also named. While he popularized the idea of currying, it was discovered by Moses Schönfinkel. Some folks wanted to call this process “Schönfinkelization,” but luckily we don’t have to regularly puzzle through that spelling.
+## Why it is called currying?
+It is not Steph! Yeah! Name is coming from [Haskell Curry](https://en.wikipedia.org/wiki/Currying). He is the programmer who socialized the the concept while Moses Schönfinkel is the founder.
