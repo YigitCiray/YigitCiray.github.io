@@ -15,6 +15,9 @@ f(a)(b)(c)
 It is a helper method to **transform** your method.
 
 ## Example
+The first method in this example is expecting two parameters. We would like to Curry this method and define constant for the usecase below. 
+
+Curried version of the valuedMember method is manually created and this is not the best approach to curry your method. So what is the better approach? Better approach is having this generic Curry method to create our own curried valuedMember method which expects not two but one parameter.
 ```swift
 func valuedMember(since date: Date, name: String) -> String {
     let format = DateFormatter()
