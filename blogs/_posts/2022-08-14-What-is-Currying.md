@@ -1,5 +1,5 @@
 ## #🧨FunctionalProgramming 
-Currying is a functional programming concept which look familiar to me from iOS World but I never thought that this is a concept with a name.
+Currying is a functional programming concept which look familiar to me from iOS world, but I did not know that this is a concept with a name.
 
 ## What is Currying?
 Currying is a great way to create compositional functions. It will provide more more reusablity. Can't we call our functions compositional which can take other function(s) as a parameter? Yes, we can! Currying is an effort/helper which transforms your ad-hoc function into more reusable one.
