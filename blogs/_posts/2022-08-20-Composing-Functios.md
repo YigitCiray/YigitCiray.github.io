@@ -18,7 +18,7 @@ to create
 c: (A) -> C
 ```
 
-## How do we do that in Swift?
+## How do we use this in Swift?
 ```swift
 infix operator +++: ForwardComposition
 
@@ -56,6 +56,9 @@ p2 +++ incr 					sign of this method == (Int) -> Int
 
 p2 +++ incr +++ String.init 	sign of this method == (Int) -> string
 (p2 +++ incr +++ String.init) (2) result = "5"
+
+incr +++ p2 +++ String.init 	sign of this method == (Int) -> string
+(incr +++ p2 +++ String.init) (2) result = "8"
 
 ```
 
