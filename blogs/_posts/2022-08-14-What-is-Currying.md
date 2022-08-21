@@ -1,4 +1,4 @@
-## #🧨FunctionalProgramming 
+### #🧨FunctionalProgramming #💻SoftwareDevelopment #📱iOS 
 Currying is a functional programming concept which look familiar to me from iOS world, but I did not know that this is a concept with a name.
 
 ## What is Currying?
