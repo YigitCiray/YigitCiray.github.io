@@ -1,4 +1,4 @@
-## What is Composition?
+### #🧨FunctionalProgramming #💻SoftwareDevelopment #📱iOS 
 Composition represents has-a relationship. It is an OOP way of reusing code by adding object to another object. Oppose inheriting, it does not have a parent/ child relationship. 
 
 ## What is Composition of Functions?
@@ -61,4 +61,3 @@ incr +++ p2 +++ String.init 	sign of this method == (Int) -> string
 (incr +++ p2 +++ String.init) (2) result = "8"
 
 ```
-
